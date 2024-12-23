@@ -1,0 +1,149 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: pink;
+	margin:50px;
+	font: 'comic sans' 100% cursive;
+}
+
+/* selector 'div' para cualquier caja, muy general */
+div{
+	width: 450px;
+	height: 250px;
+	background: pink;
+}
+
+
+/* WEB HEADER*/
+.header{
+	width: 80%;
+	height: 130px;
+	margin: 0 auto; /* centers in the page*/
+	background: rgb(114, 201, 230);
+	padding: 15px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;	
+}
+
+.header h1{
+	font-size: 50px;
+	font-family: 'Palatino', sans-serif;
+	font-style: italic;
+	color: rgb(232, 58, 171);
+}
+
+.header p{
+	font-family: 'Times New Roman', sans-serif; /* Font for normal text */
+	font-size: 15px;
+    color: #d486cd; /* Optional: Text color */
+}
+
+/* WEB PAGE OUTLINE*/
+.outline{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto; /* centers in the page*/
+	display: flex; /* Para organizar los elementos en fila horizontal */
+    justify-content: space-between; 
+	/* gap: 30px;  Set a margin in divs instead */
+	background: rgba(244, 246, 246, 0);
+	padding: 10px;
+}
+
+/* WEB MENU*/
+.menu{
+	width: 10%;
+	height: 80%;
+	background: rgb(47, 84, 96);
+	padding: 15px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.menu h1{
+	font-family: 'Times New Roman', sans-serif; /* Font for normal text */
+	font-style: bold;
+	font-size: 20px;
+    color: #7f7c89; /* Optional: Text color */
+}
+
+.menu p{
+	font-family: 'Times New Roman', sans-serif; /* Font for normal text */
+	font-size: 15px;
+    color: #232223; /* Optional: Text color */
+}
+
+/* WEB PAGE*/
+.page{
+	width: 80%;
+	height: 90%;
+	margin-left: 20px;
+	background: rgb(154, 212, 231);
+	padding: 15px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.page h1{
+	font-family: 'Times New Roman', sans-serif; /* Font for normal text */
+	font-style: bold;
+	font-size: 20px;
+    color: #7f7c89; /* Optional: Text color */
+}
+
+.page p{
+	font-family: 'Times New Roman', sans-serif; /* Font for normal text */
+	font-size: 15px;
+    color: #232223; /* Optional: Text color */
+}
+
+
+
+.film {
+	width: 450px;
+	height: 250px;
+    display: flex; /* Para organizar los elementos en fila horizontal */
+    justify-content: space-between; /* Espacio entre contenido e imagen */
+    margin-bottom: 30px; /* Espacio entre películas */
+	background: #F0E68C;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+
+
+}
+
+.film img {
+    height: 100%; /* Ajustar la altura de la imagen al tamaño del div */
+    object-fit: cover; /* Para que mantenga las proporciones adecuadas */
+    margin-left: 10px; /* Espaciado entre el texto y la imagen */	
+}
+
+.filmfact {
+	height: 85%;
+	margin: 5%;
+	background: #F0E68C;
+
+}
+
+.filmfact h1 {
+    font-family: 'Comic Sans MS', sans-serif; 
+	font-style: bold;
+    color: #333; /* Optional: Title color */
+    margin-bottom: 10px; /* Optional: Spacing */
+}
+
+.filmfact h2 {
+    font-family: 'Comic Sans MS', sans-serif; 
+    color: #333; /* Optional: Title color */
+    margin-bottom: 10px; /* Optional: Spacing */
+}
+
+.filmfact p {
+	font-family: 'Times New Roman', sans-serif; /* Font for normal text */
+    color: #3e2b0e; /* Optional: Text color */
+	margin-bottom: -10px; /* Optional: Spacing */
+}
+
